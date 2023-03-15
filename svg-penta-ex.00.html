@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <!--
+    Taken from: TryIt SVG Star 
+      <https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_star>
+
+    See also: HTML SVG
+      <https://www.w3schools.com/html/html5_svg.asp>
+  -->
+  <head>
+	<meta charset="UTF-8">
+    <title>SVG Pentagram Ex</title>
+    <style>
+      polygon.pentagram {
+          fill:			lime;
+          stroke:		blue;
+          stroke-width:	5;
+          fill-rule:	evenodd;
+      }
+    </style>
+  </head>
+  <body>
+	<!-- --------------------------------------------- -->    
+	<!-- 
+    	render the SVG figure 
+    -->
+	<svg width="300" height="200">
+  	  <polygon 
+      	points="100,10 40,198 190,78 10,78 160,198"
+        class="pentagram"
+      /><!-- close <polygon> -->
+      	<!-- This Msg displays if no SVG support -->
+      	Sorry, your browser does not support inline SVG.
+	</svg>
+	<!-- --------------------------------------------- -->    
+  </body>
+</html>
+

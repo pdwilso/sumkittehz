@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+  <title>chania-rp-02.1</title>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    /* 
+      CSS definitions for this page 
+        The styles here are taken from the HTML Resposive and CSS Responsive
+        Web Design sections at <https://www.w3schools.com/>
+    */
+    * {
+      box-sizing: border-box;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+    }
+
+    html {
+        font-family: "Lucida Sans", sans-serif;
+        font-size:calc(10px + 0.75vw);
+    }
+
+    .header {
+        background-color: #9933cc;
+        color: #ffffff;
+        padding: 15px;
+    }
+    .aside {
+        background-color: #33b5e5;
+        padding: 15px;
+        color: #ffffff;
+        text-align: center;
+        /* font-size:1.1vw; */
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+
+    .footer {
+        background-color: #0099cc;
+        color: #ffffff;
+        text-align: center;
+        font-size: calc(12px + 0.5vw);
+        padding: 15px;
+    }
+
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+      @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+        }
+      }
+
+      ul {
+        list-style-type:none;
+        margin:2px;
+        padding:2px;
+        text-align:left;
+      }
+      ul li {
+        padding: 8px;
+        margin-bottom: 7px;
+        background-color: #33b5e5;
+        color: #ffffff;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      }
+      ul li a {
+        display:block;
+        margin:5px;
+        padding:2px;
+        background-color:white;
+        text-decoration: none;
+        font-size:calc(10px + 0.65vw);
+      }
+      ul li a:hover {
+        background-color:rgb(200,245,200);
+      }
+
+      label { 
+        padding-left:5px;
+        padding-right:5px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!--
+	     The header class should be converted to top navbar with logo
+    -->
+    <header class="header">
+      <figure><img src="logo.svg" alt="EME Logo" /></figure>
+  	  <h1><cite>Equal Means Equal</cite></h1>
+	  </header>
+    <div class="row">
+    <!-- 
+      this ROW contains 3 COLUMNS - left, center, and right 
+    -->
+      <div class="col-2 menu">
+      <!--
+        This is the MENU - 
+      -->
+        <ul>
+          <li><a href="https://equalmeansequal.org/our-mission/">Our Mission</a></li>
+          <li><a href="https://equalmeansequal.org/our-team/">Our Team</a></li>
+          <li><a href="https://equalmeansequal.org/blog/">The News Blog</a></li>
+          <li><a href="https://equalmeansequal.org/event-calendar/">Upcoming Events</a></li>
+          <li><a href="https://secure.everyaction.com/i0oc1aD73EWiIFfU_kAbZA2">Join Us</a></li>
+          <li><a href="https://secure.everyaction.com/mB3QZJ8ns0m_LYZqxrj5Lw2">Donate</a></li>
+        </ul>
+  	  </div>
+
+<!--
+	This is where the video eleemnt should go
+	TBD: may want to have more than one video, here
+-->
+    <div class="col-7">
+      <p style="margin:0;padding:0;text-align:center;">
+      <iframe
+        style="width:80%;height:240px;margin-left:auto;margin-right:auto;"
+        src="https://www.youtube.com/embed/playlist?list=PL9PoK7uYEsXE8BjrtzNm7Q-AYX2lCkfvS"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; 
+        autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+      </p>
+
+      <h1>The Equal Rights Amendment</h1>
+      <p>
+        Thirty-eight states have ratiied the 
+        <a
+          target="_blank" 
+          href="https://www.archives.gov/women/era"><cite>Equal Rights Amendment</cite> 
+          (<abbr title="Equal Rights Amendment">ERA</abbr>)
+        </a>.  On
+        <date>January 27th, 2020</date> the thirty-eighth state ratified the ERA, yet now, in 
+        <date>March of 2023</date>, the current <abbr title="United States">U.S.</abbr> 
+        administration is blocking ERA from being added to the 
+        <a
+          title="United State Consitution" target="_blank" 
+          href="https://www.archives.gov/founding-docs/constitution-transcript">
+          <abbr title="United States">U.S.</abbr> Constitution
+        </a>,
+        and sitting Senators are blatantly defying
+        the Will of We The People in their attempt to prevent the now fully ratified 
+        ERA from becoming Law as part of the US Constitution.
+      </p>
+      <p>
+        What can we do to prevent the administration and Congress from derailing the
+        <abbr title="Equal Rights Amendment">ERA</abbr> yet again in the 21<sup>st</sup>
+        Century?
+      </p>
+      <p>
+        Join Us!  <cite>Equal Means Equal</cite> is fighting to get the 
+        <abbr title="Equal Rights Amendment">ERA</abbr> accepted as Law.  
+        Join us in the fight to secure for all persons the Rights enumberated by
+        the <abbr title="Equal Rights Amendment">ERA</abbr>.
+      </p>
+      <h2><cite>Equal Means Equal</cite>:  The Movement</h2>
+      <p>
+        Welcome to <strong><code>equalmeansequal.org</code></strong>, a movement to complete 
+        the ratification of the original Equal Rights Amendment to the US Constitution.
+      </p>
+      <h2><cite>Equal Means Equal</cite>:  The Documentary</h2>
+      <p>
+        The documentary film production <strong><em>EQUAL MEANS EQUAL</em></strong> provides an 
+        unflinching look at how women are treated in the United States today. By following both 
+        real life stories and precedent setting legal cases, director <em>Kamala Lopez</em> discovers 
+        how outdated and discriminatory attitudes inform and influence seemingly disparate issues, 
+        from workplace matters to domestic violence, rape and sexual assault to the foster care system, 
+        the healthcare system and the legal system. Lopez reveals the inadequacy of laws currently in place 
+        in the US - laws that claim to protect women, but which too often fall far short of that goal.
+      </p>
+      <p>
+        <blockquote>
+          &quot; The struggle to pass the <abbr title="Equal Rights Amendment">ERA<abbr> in the 
+          <abbr title="United States">U.S.</a> is experiencing a phenomenal resurgency now,
+          reflected in this film.&quot; - Paula J. Caplan, Ph.D., <cite>Psychology Today</cite>
+        </blockquote>
+      </p>
+      <p>
+        <a href="https://equalmeansequal.com/synopsis/"><cite>Synopsis</cite></a> from 
+        <a href="https://equalmeansequal.com"><code>EqualMeansEqual.com</code></a>
+      </p>
+      <p>
+        <a href="ht>tps://equalmeansequal.com/EMEPressKit.pdf">Equal Means Equal Press Kit</a>
+      </p>
+    </div>
+  
+<!--
+  So we gonna put the menu inside this block
+-->
+  <div class="col-3 style="float:right;" right">
+    <div class="aside">
+      <ul class="sidelist">
+        <li class="menuitem">
+          <a class="navlink" href="https://equalmeansequal.org/herstory-womens-rights-u-s/">The <em>Her</em>story
+            of Women&rsquo;s Rights in the U.S.</a>
+        </li>
+        <li class="menuitem parent">
+          <a class="navlink" href="https://equalmeansequal.org/organize-an-event/">Organize a Screening</a>
+        </li>
+        <li class="menuitem">
+          <a class="nav-main-link" href="https://equalmeansequal.org/store/">The Equality Store</a>
+        </li>
+        <li class="menuitem">
+          <a class="navlink" href="https://equalmeansequal.org/blog/equal-means-equal-v-u-s-department-education-betsy-devos/">
+            Title IX Lawsuit</a>
+        </li>
+         <li class="menuitem">
+          <a class="navlink" 
+            href="https://equalmeansequal.org/johns-hopkins-school-advanced-international-studies-report/">
+          Johns Hopkins School of Advanced International Studies &shy; Report</a>
+        </li>
+        <li class="menuitem">
+          <a class="navlink" href="https://secure.everyaction.com/mB3QZJ8ns0m_LYZqxrj5Lw2">Fuel the Fight</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--
+	The footer should contain the contact form and copyright information
+-->
+<div class="footer">
+      <p>
+        <strong>Join the fight in your state to add women's rights to the Constitution.</strong>
+      </p>
+      <p>
+        Equal Means Equal will keep you informed of the status of ratification in 
+        your state and what actions you can take locally to pass the ERA.
+      </p>
+      <div>
+        <form method="POST" 
+            action="https://secure.everyaction.com/i0oc1aD73EWiIFfU_kAbZA2" novalidate>
+          <div>
+            <label for="signup-email">Email:</label>
+            <input id="signup-email" 
+              type="email"
+              size="25" 
+              placeholder="Email" name="email" required/>
+            <label for="signup-zip">Zipcode:</label>
+            <input id="signup-zip" 
+              type="text" size="5"
+              pattern="[0-9]{5}"
+              title="5 digit zip code" 
+              placeholder="Zip" name="zip"
+              required/>
+            <button name="submit" class="button">Sign Up</button>
+          </div>
+        </form>
+      </div>
+      <div class="message">
+        <div class="row">
+          <div class="columns small-12 medium-8 large-6 medium-centered">
+            <div class="message__title">
+              <p>Right on!<br /> Let's do this.</p>
+            </div>
+            <div class="message">
+              <p>
+                Want to do more? 
+                <a href="https://demand.equalmeansequal.org/page/signup/want-to-do-more">
+                Let us know how else you can help.</a>
+              </p>
+            </div><!-- close div class 'message' -->
+          </div>
+        </div><!-- close div class 'row' -->
+      </div>
+    </div><!-- close class 'footer' -->
+
+  </body>
+</html>
+
+
